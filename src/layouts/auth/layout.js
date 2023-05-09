@@ -59,7 +59,7 @@ export const Layout = (props) => {
           lg={6}
           sx={{
             alignItems: 'center',
-            background: 'radial-gradient(50% 50% at 50% 50%, #122647 0%, #090E23 100%)',
+            background: '#2196f3',
             color: 'white',
             display: 'flex',
             justifyContent: 'center',
@@ -79,13 +79,13 @@ export const Layout = (props) => {
               }}
               variant="h1"
             >
-              Welcome to{' '}
+              PORTAL{' '}
               <Box
                 component="a"
-                sx={{ color: '#15B79E' }}
+                sx={{ color: 'black' }}
                 target="_blank"
               >
-                Devias Kit
+                Registro de la Propiedad
               </Box>
             </Typography>
             <Typography
@@ -93,12 +93,20 @@ export const Layout = (props) => {
               sx={{ mb: 3 }}
               variant="subtitle1"
             >
-              A professional kit that comes with ready-to-use MUI components.
-            </Typography>
-            <img
+              Brindando seguridad registral y serteza juridica
+              <Typography
+              align="center"
+              sx={{ mb: 3 }}
+              variant="subtitle1"
+            >  </Typography>
+              
+              <img
               alt=""
-              src="/assets/auth-illustration.svg"
+              src="/assets/logos/logo_rgp.png"
             />
+            </Typography>
+            
+            
           </Box>
         </Grid>
       </Grid>

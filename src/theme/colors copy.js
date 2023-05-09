@@ -12,18 +12,36 @@ const withAlphas = (color) => {
 };
 
 export const neutral = {
-  50: '#F8F9FA',
+  // fondo de header de tablas
+  50: '#ff8a50',
   //50: '#F44336',
-  100: '#F3F4F6',
-  200: '#E5E7EB',
-  300: '#D2D6DB',
-  400: '#9DA4AE',
-  500: '#6C737F',
-  600: '#4D5761',
-  700: '#2F3746',
-  800: '#1C2536',
-  900: '#111927'
+  //letras pequenitas que no se ven casi
+  100: '#FF5722',
+//letras pequenitas que no se ven casi
+  200: '##FF5722',
+  300: '#FFC107',
+  //letras de bar lateral
+  400: '#FFC107',
+  //letras de tablas y graficas.
+  500: '#495a86',
+  600: '#e0e0e0',
+
+  //letras de header de tablas
+  700: '#2e416b',
+
+  //fondo menu bar lat
+  800: '#1B3159',
+  900: '#1B3159'
 };
+
+export const rgp = withAlphas({
+  lightest: '#1B3159',
+  light: '#1B3159',
+  main: '#1B3159',
+  dark: '#1B3159',
+  darkest: '#1B3159',
+  contrastText: '#FFFFFF'
+});
 
 export const indigo = withAlphas({
   lightest: '#F5F7FF',
